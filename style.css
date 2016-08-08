@@ -1,0 +1,21 @@
+@media only screen and (max-width: 300px) and (orientation: landscape){
+	img {
+		display: none;
+	}
+	
+}
+
+@media screen and (device-aspect-ratio: 4/3) {
+ #lorem {
+ 	display: block;
+ }
+}
+
+#lorem {
+	display:none;
+}
+@media screen and (max-aspect-ratio: 1/1) and (max-resolution: 90dpi){
+ #mov {
+ 	display: none ;
+ }
+}
